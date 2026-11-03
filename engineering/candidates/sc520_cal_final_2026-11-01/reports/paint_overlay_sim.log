@@ -1,0 +1,23 @@
+# do run_paint_overlay.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:41 on Oct 31,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/wall_paint_precision.v tb_paint_overlay.sv 
+# -- Compiling module wall_red_marker
+# -- Compiling module wall_paint_overlay
+# -- Compiling module tb_paint_overlay
+# 
+# Top level modules:
+# 	wall_red_marker
+# 	tb_paint_overlay
+# End time: 19:27:41 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_paint_overlay 
+# Start time: 19:27:41 on Oct 31,2026
+# Loading sv_std.std
+# Loading work.tb_paint_overlay
+# Loading work.wall_paint_overlay
+# PASS paint overlay: 2 full rasters / 1843200 pixel checks, ROI/cursor alignment, 32x16 preview address and 8x8 replication, atomic metadata, bank swap only at SOF
+# ** Note: $finish    : tb_paint_overlay.sv(68)
+#    Time: 24656192748 ps  Iteration: 1  Instance: /tb_paint_overlay
+# End time: 19:27:51 on Oct 31,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0

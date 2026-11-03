@@ -1,0 +1,35 @@
+# do run_presentation_states.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:32 on Nov 01,2026
+# vlog -work work_ui_states -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v tb_presentation_states.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module frame_status_96
+# -- Compiling module status_zh_glyph
+# -- Compiling module presentation_status_96
+# -- Compiling module tb_presentation_states
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16
+# 	frame_status_96
+# 	tb_presentation_states
+# End time: 15:34:32 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work_ui_states.tb_presentation_states 
+# Start time: 15:34:32 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_ui_states.tb_presentation_states
+# Loading work_ui_states.presentation_status_96
+# Loading work_ui_states.presentation_font16_sync
+# Loading work_ui_states.osd_font5x7
+# PASS presentation states: six image modes, CAL states with removed legacy OFF mapped to uncalibrated, thresholds/strength, six motion levels and mid-frame atomic metadata across 5529600 pixels
+# ** Note: $finish    : tb_presentation_states.sv(81)
+#    Time: 13867280 ns  Iteration: 1  Instance: /tb_presentation_states
+# Break in Module tb_presentation_states at tb_presentation_states.sv line 81
+# Stopped at tb_presentation_states.sv line 81
+# End time: 15:34:41 on Nov 01,2026, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

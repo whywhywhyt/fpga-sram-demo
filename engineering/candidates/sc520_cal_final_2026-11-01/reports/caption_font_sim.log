@@ -1,0 +1,31 @@
+# do run_caption_font.do
+# ** Warning: (vlib-34) Library already exists at "work_caption_font".
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:57:37 on Nov 01,2026
+# vlog -work work_caption_font -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v tb_caption_font.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module tb_caption_font
+# 
+# Top level modules:
+# 	osd_title_char
+# 	tb_caption_font
+# End time: 13:57:37 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work_caption_font.tb_caption_font 
+# Start time: 13:57:38 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_caption_font.tb_caption_font
+# Loading work_caption_font.presentation_font16
+# Loading work_caption_font.osd_font5x7
+# Loading work_caption_font.presentation_font16_sync
+# PASS caption font: all 4096 code/row addresses, complete independent font reference, both synchronous banks and combinational HDMI readers
+# ** Note: $finish    : tb_caption_font.sv(29)
+#    Time: 40966 ns  Iteration: 0  Instance: /tb_caption_font
+# Break in Module tb_caption_font at tb_caption_font.sv line 29
+# Stopped at tb_caption_font.sv line 29
+# End time: 13:57:38 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,21 @@
+# do run_color_vote_accuracy.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:37:52 on Oct 31,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/shape_color_vote_96.v tb_color_vote_accuracy.sv 
+# -- Compiling module shape_color_vote_96
+# -- Compiling module tb_color_vote_accuracy
+# 
+# Top level modules:
+# 	tb_color_vote_accuracy
+# End time: 19:37:52 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_color_vote_accuracy 
+# Start time: 19:37:52 on Oct 31,2026
+# Loading sv_std.std
+# Loading work.tb_color_vote_accuracy
+# Loading work.shape_color_vote_96
+# PASS color votes: 8/16 rejected, 9/16 accepted; blue/yellow classes retained
+# ** Note: $finish    : tb_color_vote_accuracy.sv(46)
+#    Time: 235 ns  Iteration: 1  Instance: /tb_color_vote_accuracy
+# End time: 19:37:52 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

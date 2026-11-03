@@ -1,0 +1,36 @@
+# do run_tone.do
+# onerror {quit -code 1 -f}
+# if {![file isdirectory work_tone]} {vlib work_tone}
+# vlog -work work_tone -sv ../candidate/sc520_shapes/user_source/hdl_source/isp/isp_top.v tb_tone.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:54 on Nov 01,2026
+# vlog -work work_tone -sv ../candidate/sc520_shapes/user_source/hdl_source/isp/isp_top.v tb_tone.sv 
+# -- Compiling module isp_top
+# -- Compiling module axis_gamma_rgb96
+# -- Compiling module axis_crop_rgb96
+# -- Compiling module axis_tone_rgb96
+# -- Compiling module tb_tone
+# 
+# Top level modules:
+# 	isp_top
+# 	axis_gamma_rgb96
+# 	axis_crop_rgb96
+# 	tb_tone
+# End time: 12:25:54 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs=+acc work_tone.tb_tone
+# vsim -c -onfinish stop -voptargs="+acc" work_tone.tb_tone 
+# Start time: 12:25:55 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_tone.tb_tone
+# Loading work_tone.axis_tone_rgb96
+# run -all
+# PASS tone exhaustive: 16777216 RGB values, all four lanes, common gain bounds, neutral preservation, channel order, bubbles, reset, early SOF and EOL
+# ** Note: $finish    : tb_tone.sv(66)
+#    Time: 42107770 ns  Iteration: 1  Instance: /tb_tone
+# Break in Module tb_tone at tb_tone.sv line 66
+# Stopped at tb_tone.sv line 66
+# if {[examine -radix unsigned /tb_tone/completed] != 1} {quit -code 1 -f}
+# quit -code 0 -f
+# End time: 12:27:57 on Nov 01,2026, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-01T18:13:50.3042442+08:00",
+  "project": "sc520_cal_final_2026-11-01",
+  "td_version": "6.2.168116 (TD 6.2.1)",
+  "method": "TD 6.2.1 prog_sram SVF via OpenOCD FTDI/JTAG",
+  "bit_sha256": "F6A70CBB28952BE264BC96C47D753BB9CAF8EDBC1E87D0F2EF8C4ADC300DCAED",
+  "output_pin": "P5 / J1-15 (fixed-background light canvas / GRB / 32x16 / two panels)",
+  "output_pin_verified": true,
+  "final_setup_wns_ns": 0.004,
+  "final_hold_wns_ns": 0.02,
+  "usb_interface_a_service": "WINUSB",
+  "usb_interface_b_service": "FTDIBUS",
+  "jtag_id": "0x4808F0E7",
+  "svf_generated": true,
+  "sram_downloaded": true,
+  "done_passed": true,
+  "visual_accepted": false,
+  "flash_written": false,
+  "generated_svf_sha256": "ABBBAE698B4419FCC98A2E8FDCA5DACD1CFD5B36BD39295F7FDC4ADA0160FB71",
+  "done_svf_sha256": "19E30CD9E0D115083A1597439B099C47317822FD5A5CC1C3D9BB28B56D51232B"
+}

@@ -1,0 +1,39 @@
+# do run_motion_controls.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:50:51 on Nov 01,2026
+# vlog -work work_motion_controls -sv ../candidate/sc520_shapes/user_source/hdl_source/mode_button_control.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v tb_motion_controls.sv 
+# -- Compiling module mode_button_control
+# -- Compiling module realtime_mode_control
+# -- Compiling module frame_status_96
+# -- Compiling module status_zh_glyph
+# -- Compiling module presentation_status_96
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module tb_motion_controls
+# 
+# Top level modules:
+# 	realtime_mode_control
+# 	frame_status_96
+# 	osd_title_char
+# 	presentation_font16
+# 	tb_motion_controls
+# End time: 15:50:52 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" work_motion_controls.tb_motion_controls 
+# Start time: 15:50:52 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_motion_controls.tb_motion_controls
+# Loading work_motion_controls.mode_button_control
+# Loading work_motion_controls.presentation_status_96
+# Loading work_motion_controls.presentation_font16_sync
+# Loading work_motion_controls.osd_font5x7
+# PASS motion controls: eight modes/wrap and cartoon threshold keys, K2 original without bypass and CAL capture, K3 power independent, Chinese mode/global captions and clean original across 3686400 pixels, checks=208
+# ** Note: $finish    : tb_motion_controls.sv(50)
+#    Time: 9221840 ns  Iteration: 1  Instance: /tb_motion_controls
+# Break in Module tb_motion_controls at tb_motion_controls.sv line 50
+# Stopped at tb_motion_controls.sv line 50
+# End time: 15:51:00 on Nov 01,2026, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0

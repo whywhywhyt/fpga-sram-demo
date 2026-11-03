@@ -1,0 +1,98 @@
+# do run_display_isolated.do
+# onerror {quit -code 1 -f}
+# if {![file isdirectory work_display_isolated]} {vlib work_display_isolated}
+# set h ../candidate/sc520_shapes/user_source/hdl_source
+# ../candidate/sc520_shapes/user_source/hdl_source
+# vlog -work work_display_isolated -sv $h/isp/isp_top.v $h/awb.v $h/isp/data128_96/data128_96.v $h/data_96bit_to_128bit.v $h/image_modes_96.v $h/rgb_mode_96.v $h/natural_enhance_96.v $h/isp/prewitt_detect_96.v $h/motion_detect_96.v $h/shape_overlay_96.v $h/shape_detector_96.v $h/shape_ccl.v $h/shape_mul64.v $h/shape_color_vote_96.v $h/osd_font5x7.v $h/frame_status_96.v tb_display_isolated.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:05 on Nov 01,2026
+# vlog -work work_display_isolated -sv ../candidate/sc520_shapes/user_source/hdl_source/isp/isp_top.v ../candidate/sc520_shapes/user_source/hdl_source/awb.v ../candidate/sc520_shapes/user_source/hdl_source/isp/data128_96/data128_96.v ../candidate/sc520_shapes/user_source/hdl_source/data_96bit_to_128bit.v ../candidate/sc520_shapes/user_source/hdl_source/image_modes_96.v ../candidate/sc520_shapes/user_source/hdl_source/rgb_mode_96.v ../candidate/sc520_shapes/user_source/hdl_source/natural_enhance_96.v ../candidate/sc520_shapes/user_source/hdl_source/isp/prewitt_detect_96.v ../candidate/sc520_shapes/user_source/hdl_source/motion_detect_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_overlay_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_detector_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_ccl.v ../candidate/sc520_shapes/user_source/hdl_source/shape_mul64.v ../candidate/sc520_shapes/user_source/hdl_source/shape_color_vote_96.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v tb_display_isolated.sv 
+# -- Compiling module isp_top
+# -- Compiling module axis_gamma_rgb96
+# -- Compiling module axis_crop_rgb96
+# -- Compiling module axis_tone_rgb96
+# -- Compiling module awb
+# -- Compiling module awb_serial_ratio
+# -- Compiling module awb_spatial_calibration
+# -- Compiling module data128_96
+# -- Compiling module data_96bit_to_128bit
+# -- Compiling module image_modes_96
+# -- Compiling module rgb_identity_96
+# -- Compiling module gray_transform_96
+# -- Compiling module binary_transform_96
+# -- Compiling module natural_enhance_96
+# -- Compiling module prewitt_detect_96
+# -- Compiling module motion_frame_diff_96
+# -- Compiling module motion_status_overlay_96
+# -- Compiling module motion_region_detect_96
+# -- Compiling module motion_region_overlay_96
+# -- Compiling module target_overlay_96
+# -- Compiling module shape_panel_char
+# -- Compiling module shape_tag_char
+# -- Compiling module shape_tag_zh_char
+# -- Compiling module shape_detector_96
+# -- Compiling module shape_ccl
+# -- Compiling module shape_mul64
+# -- Compiling module shape_color_vote_96
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module frame_status_96
+# -- Compiling module status_zh_glyph
+# -- Compiling module presentation_status_96
+# -- Compiling module demosaic
+# -- Compiling module tb_display_isolated
+# 
+# Top level modules:
+# 	axis_gamma_rgb96
+# 	axis_crop_rgb96
+# 	motion_frame_diff_96
+# 	motion_status_overlay_96
+# 	osd_title_char
+# 	presentation_font16
+# 	frame_status_96
+# 	tb_display_isolated
+# End time: 15:23:06 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs=+acc work_display_isolated.tb_display_isolated
+# vsim -c -onfinish stop -voptargs="+acc" work_display_isolated.tb_display_isolated 
+# Start time: 15:23:06 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_display_isolated.tb_display_isolated
+# Loading work_display_isolated.isp_top
+# Loading work_display_isolated.motion_region_detect_96
+# Loading work_display_isolated.image_modes_96
+# Loading work_display_isolated.natural_enhance_96
+# Loading work_display_isolated.rgb_identity_96
+# Loading work_display_isolated.gray_transform_96
+# Loading work_display_isolated.binary_transform_96
+# Loading work_display_isolated.prewitt_detect_96
+# Loading work_display_isolated.axis_tone_rgb96
+# Loading work_display_isolated.target_overlay_96
+# Loading work_display_isolated.shape_detector_96
+# Loading work_display_isolated.shape_color_vote_96
+# Loading work_display_isolated.shape_ccl
+# Loading work_display_isolated.shape_mul64
+# Loading work_display_isolated.shape_panel_char
+# Loading work_display_isolated.osd_font5x7
+# Loading work_display_isolated.motion_region_overlay_96
+# Loading work_display_isolated.presentation_status_96
+# Loading work_display_isolated.presentation_font16_sync
+# Loading work_display_isolated.demosaic
+# Loading work_display_isolated.data128_96
+# Loading work_display_isolated.awb
+# Loading work_display_isolated.awb_spatial_calibration
+# Loading work_display_isolated.awb_serial_ratio
+# Loading work_display_isolated.data_96bit_to_128bit
+# Loading work_display_isolated.shape_tag_zh_char
+# run -all
+# PASS display isolation: nine full 720p frames, 2073600 groups, 1555200 DDR words, eight modes, unchanged monochrome algorithms and wall/marker tap, aligned raw detector/display metadata, 115200 exact tiles including neutral-background rejection and dim-blue/yellow positives
+# ** Note: $finish    : tb_display_isolated.sv(120)
+#    Time: 21270894960 ps  Iteration: 1  Instance: /tb_display_isolated
+# Break in Module tb_display_isolated at tb_display_isolated.sv line 120
+# Stopped at tb_display_isolated.sv line 120
+# if {[examine -radix unsigned /tb_display_isolated/completed] != 1} {quit -code 1 -f}
+# quit -code 0 -f
+# End time: 15:31:01 on Nov 01,2026, Elapsed time: 0:07:55
+# Errors: 0, Warnings: 0

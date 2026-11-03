@@ -1,0 +1,32 @@
+﻿{
+  "package": "FPGA SRAM filming handoff",
+  "candidate": "sc520_cal_final_2026-11-01",
+  "created_at": "2026-11-01T19:09:14.532764+08:00",
+  "sram_only": true,
+  "flash_commands_included": false,
+  "bit_sha256": "f6a70cbb28952be264bc96c47d753bb9caf8edbc1e87d0f2ef8c4adc300dcaed",
+  "svf_sha256": "abbbae698b4419fcc98a2e8fdca5dacd1cfd5b36bd39295f7fdc4ada0160fb71",
+  "done_svf_sha256": "19e30cd9e0d115083a1597439b099c47317822fd5a5cc1c3d9bb28b56d51232b",
+  "source_board_receipt_time": "2026-11-01T18:13:50.3042442+08:00",
+  "source_board_sram_done_passed": true,
+  "receiving_board_tested": false,
+  "visual_accepted": false,
+  "source_snapshot_included": true,
+  "device": "PH1P35MDG324 -3",
+  "board": "HX1P35A",
+  "usb_vid_pid": "0403:6042",
+  "jtag_id": "0x4808F0E7",
+  "calibration_coefficients_persist": false,
+  "setup_wns_ns": 0.004,
+  "hold_wns_ns": 0.02,
+  "slice": 20342,
+  "eram": 90,
+  "dsp": 35,
+  "simulation_suites": 40,
+  "entrypoint": "01_download_sram.cmd",
+  "requires": [
+    "Windows 10/11 x64",
+    "Windows PowerShell 5.1",
+    "A/MI_00 WinUSB; B/MI_01 FTDIBUS"
+  ]
+}

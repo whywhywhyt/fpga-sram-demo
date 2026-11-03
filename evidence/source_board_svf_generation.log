@@ -1,0 +1,9 @@
+RUN-1002 : start command "svfgen -scan_mode prog_sram -bit D:/workspace/fpga/contest/final_solution/candidates/sc520_cal_final_2026-11-01/candidate/sc520_shapes/td_project/camera_to_dsi_display_Runs/phy_1/camera_to_dsi_display.bit -svf candidate.svf"
+RUN-1003 : finish command "svfgen -scan_mode prog_sram -bit D:/workspace/fpga/contest/final_solution/candidates/sc520_cal_final_2026-11-01/candidate/sc520_shapes/td_project/camera_to_dsi_display_Runs/phy_1/camera_to_dsi_display.bit -svf candidate.svf" in  0.489383s wall, 0.390625s user + 0.093750s system = 0.484375s CPU (99.0%)
+
+RUN-1004 : used memory is 25 MB, reserved memory is 9 MB, peak memory is 55 MB
+RUN-1002 : start command "svfgen -scan_mode check_status_done -bit D:/workspace/fpga/contest/final_solution/candidates/sc520_cal_final_2026-11-01/candidate/sc520_shapes/td_project/camera_to_dsi_display_Runs/phy_1/camera_to_dsi_display.bit -svf candidate_done.svf"
+RUN-1003 : finish command "svfgen -scan_mode check_status_done -bit D:/workspace/fpga/contest/final_solution/candidates/sc520_cal_final_2026-11-01/candidate/sc520_shapes/td_project/camera_to_dsi_display_Runs/phy_1/camera_to_dsi_display.bit -svf candidate_done.svf" in  0.006456s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 25 MB, reserved memory is 10 MB, peak memory is 55 MB
+INTERACTIVE_CANVAS_SRAM_SVF_COMPLETED

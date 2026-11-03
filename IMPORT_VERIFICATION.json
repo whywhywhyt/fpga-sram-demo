@@ -1,0 +1,15 @@
+{
+  "candidate": "sc520_cal_final_2026-11-01",
+  "source_archive": "FPGA全功能SRAM展示交接包_2026-11-01.zip",
+  "source_archive_sha256": "6cea35f3b8c7593ce23d6f987b3edfb8163505c16287c510c5a8e220bcd464ba",
+  "package_files_imported": 1166,
+  "source_files_expanded": 464,
+  "original_manifest_files_verified": 1165,
+  "manifest_mismatches": [],
+  "td_project_references_verified": 78,
+  "missing_project_references": [],
+  "bit_sha256": "f6a70cbb28952be264bc96c47d753bb9caf8edbc1e87d0f2ef8c4adc300dcaed",
+  "hardware_accessed": false,
+  "simulation_rerun": false,
+  "synthesis_rerun": false
+}

@@ -1,0 +1,71 @@
+# do run_presentation_ui.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:32:35 on Nov 01,2026
+# vlog -work work_ui -sv ../candidate/sc520_shapes/user_source/hdl_source/shape_mul64.v ../candidate/sc520_shapes/user_source/hdl_source/shape_ccl.v ../candidate/sc520_shapes/user_source/hdl_source/shape_color_vote_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_detector_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_overlay_96.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v ../candidate/sc520_shapes/user_source/hdl_source/latency_meter.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v tb_presentation_ui.sv 
+# -- Compiling module shape_mul64
+# -- Compiling module shape_ccl
+# -- Compiling module shape_color_vote_96
+# -- Compiling module shape_detector_96
+# -- Compiling module target_overlay_96
+# -- Compiling module shape_panel_char
+# -- Compiling module shape_tag_char
+# -- Compiling module shape_tag_zh_char
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module frame_status_96
+# -- Compiling module status_zh_glyph
+# -- Compiling module presentation_status_96
+# -- Compiling module latency_timebase
+# -- Compiling module latency_clock_sync
+# -- Compiling module latency_capture
+# -- Compiling module latency_tag_96
+# -- Compiling module latency_reader
+# -- Compiling module latency_bcd
+# -- Compiling module latency_panel
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module tb_presentation_ui
+# 
+# Top level modules:
+# 	osd_title_char
+# 	frame_status_96
+# 	latency_timebase
+# 	latency_clock_sync
+# 	latency_capture
+# 	latency_tag_96
+# 	latency_reader
+# 	wall_light_painter
+# 	tb_presentation_ui
+# End time: 15:32:35 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work_ui.tb_presentation_ui 
+# Start time: 15:32:35 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_ui.tb_presentation_ui
+# Loading work_ui.target_overlay_96
+# Loading work_ui.shape_detector_96
+# Loading work_ui.shape_color_vote_96
+# Loading work_ui.shape_ccl
+# Loading work_ui.shape_mul64
+# Loading work_ui.shape_panel_char
+# Loading work_ui.osd_font5x7
+# Loading work_ui.presentation_status_96
+# Loading work_ui.presentation_font16_sync
+# Loading work_ui.shape_tag_zh_char
+# Loading work_ui.latency_panel
+# Loading work_ui.latency_bcd
+# Loading work_ui.presentation_font16
+# Loading work_ui.wall_status_panel
+# ** Warning: (vsim-3017) tb_presentation_ui.sv(10): [TFMPC] - Too few port connections. Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_presentation_ui/ui File: ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v
+# ** Warning: (vsim-3722) tb_presentation_ui.sv(10): [TFMPC] - Missing connection for port 'I_motion_global'.
+# PASS presentation UI: 6144 Chinese labels, 921600-pixel camera raster, 1843200 HDMI pixels, clean diagnostics regions, colored boxes, valid/wait latency and unchanged ten-stage transport
+# ** Note: $finish    : tb_presentation_ui.sv(93)
+#    Time: 20751450 ns  Iteration: 1  Instance: /tb_presentation_ui
+# Break in Module tb_presentation_ui at tb_presentation_ui.sv line 93
+# Stopped at tb_presentation_ui.sv line 93
+# End time: 15:34:30 on Nov 01,2026, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 2

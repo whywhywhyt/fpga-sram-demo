@@ -1,0 +1,2409 @@
+{
+  "frames": 267,
+  "pixels_per_frame": 512,
+  "cases": [
+    {
+      "name": "warmup/calibration 0",
+      "command": 0,
+      "status": 0,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "warmup/calibration 1",
+      "command": 0,
+      "status": 0,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "warmup/calibration 2",
+      "command": 0,
+      "status": 1,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "warmup/calibration 3",
+      "command": 0,
+      "status": 1,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "warmup/calibration 4",
+      "command": 0,
+      "status": 1,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "warmup/calibration 5",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "empty scene",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "slow move 4",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "slow move 5",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 32,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "slow move 6",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 38,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "slow move 7",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 44,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "slow move 8",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 50,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "fast move 12",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 72,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "fast move 17",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 98,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "fast move 21",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 120,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 0",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 120,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 1",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 120,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 2",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 120,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 3",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 120,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 4",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 120,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 5",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 120,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 6",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 114,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 7",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 112,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 8",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 110,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 9",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 108,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 10",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 102,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 11",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 88,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 12",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 13",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 14",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 15",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 16",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 17",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 18",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 19",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 20",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 21",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 22",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 23",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 24",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 25",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 26",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 27",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 28",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 29",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 30",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 31",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 32",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 33",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 34",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 35",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 36",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 37",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 38",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 39",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 40",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 41",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 42",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 43",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 44",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 45",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 46",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 47",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 48",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 49",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 50",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 51",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 52",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 53",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 54",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 78,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 55",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 74,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 56",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 70,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 57",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 66,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 58",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 62,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 59",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 50,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 60",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 38,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 61",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 62",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 63",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 64",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 65",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 66",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 67",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 68",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "stationary must not learn away 69",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 0",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 1",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 2",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 3",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 4",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 5",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 6",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 7",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 8",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 9",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 10",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 11",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 12",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 26,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 13",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 14",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 15",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 16",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 17",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 18",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 19",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 20",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 21",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 22",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 23",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 24",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 25",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 26",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 27",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 28",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 29",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 30",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 31",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 32",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 33",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 34",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 35",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 36",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 37",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 38",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 39",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 40",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 41",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 42",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 43",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 44",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 45",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 46",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 47",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 48",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 49",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 50",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 51",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 52",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 53",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 54",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 55",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 56",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 57",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 58",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 59",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 60",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 61",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 12,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 62",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 63",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 64",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "leave and fade 65",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "isolated tile noise",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "empty with sensor noise 0",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "empty with sensor noise 1",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "empty with sensor noise 2",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "global lighting change must be blocked",
+      "command": 0,
+      "status": 5,
+      "foreground_count": 512,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "back to original background",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 0
+    },
+    {
+      "name": "enter paint mode",
+      "command": 2,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint movement 7",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint movement 11",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint movement 16",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint movement 23",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint holds accumulated strokes 0",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint holds accumulated strokes 1",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint holds accumulated strokes 2",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint holds accumulated strokes 3",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "paint holds accumulated strokes 4",
+      "command": 0,
+      "status": 3,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 1
+    },
+    {
+      "name": "freeze artwork",
+      "command": 2,
+      "status": 4,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 2
+    },
+    {
+      "name": "frozen ignores foreground",
+      "command": 0,
+      "status": 4,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 2
+    },
+    {
+      "name": "frozen ignores bright scene",
+      "command": 0,
+      "status": 4,
+      "foreground_count": 12,
+      "lit_pixels": 0,
+      "ripple_phase": 0,
+      "effect": 2
+    },
+    {
+      "name": "enter ripple mode",
+      "command": 2,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 9,
+      "ripple_phase": 1,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 0",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 21,
+      "ripple_phase": 2,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 1",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 37,
+      "ripple_phase": 3,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 2",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 61,
+      "ripple_phase": 4,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 3",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 89,
+      "ripple_phase": 5,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 4",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 121,
+      "ripple_phase": 6,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 5",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 161,
+      "ripple_phase": 7,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 6",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 202,
+      "ripple_phase": 8,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 7",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 240,
+      "ripple_phase": 9,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 8",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 278,
+      "ripple_phase": 10,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 9",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 312,
+      "ripple_phase": 11,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 10",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 344,
+      "ripple_phase": 12,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 11",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 376,
+      "ripple_phase": 13,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 12",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 408,
+      "ripple_phase": 14,
+      "effect": 3
+    },
+    {
+      "name": "ripple expands 13",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 440,
+      "ripple_phase": 15,
+      "effect": 3
+    },
+    {
+      "name": "ripple follows moving object",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 0",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 1",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 2",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 3",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 4",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 5",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 6",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 7",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 8",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 9",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 10",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 11",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 12",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 13",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 14",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 15",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 16",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 17",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 18",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 19",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 20",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 21",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 22",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 23",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 24",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 25",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 440,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 26",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 27",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 28",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 29",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 30",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 31",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 32",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 33",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 34",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 35",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 36",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 37",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 38",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 39",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 40",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 41",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 42",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 43",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 44",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 45",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 46",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 408,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 47",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 407,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 48",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 399,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 49",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 387,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 50",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 371,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 51",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 347,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 52",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 319,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 53",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 287,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 54",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 247,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 55",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 209,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 56",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 179,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 57",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 145,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 58",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 112,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 59",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 80,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 60",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 48,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 61",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 16,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 62",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 63",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 64",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow ripple leaves and fades 65",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 16,
+      "effect": 3
+    },
+    {
+      "name": "rainbow red center reentry",
+      "command": 0,
+      "status": 6,
+      "foreground_count": 12,
+      "lit_pixels": 9,
+      "ripple_phase": 1,
+      "effect": 3
+    },
+    {
+      "name": "return to live",
+      "command": 2,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "live clears old effects",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "manual recapture",
+      "command": 1,
+      "status": 1,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background calibration 0",
+      "command": 0,
+      "status": 1,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background calibration 1",
+      "command": 0,
+      "status": 1,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background calibration 2",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background calibration 3",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background empty",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 0,
+      "lit_pixels": 0,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background foreground 0",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background foreground 1",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background foreground 2",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background foreground 3",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background foreground 4",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 1,
+      "effect": 0
+    },
+    {
+      "name": "new background foreground 5",
+      "command": 0,
+      "status": 2,
+      "foreground_count": 12,
+      "lit_pixels": 26,
+      "ripple_phase": 1,
+      "effect": 0
+    }
+  ]
+}

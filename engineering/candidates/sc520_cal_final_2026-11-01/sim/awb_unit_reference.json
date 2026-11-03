@@ -1,0 +1,7 @@
+{
+  "cycles": 21628,
+  "frame_requests": 101,
+  "valid_output_beats": 6048,
+  "divider_cases": 512,
+  "full_frame_beats": 64
+}

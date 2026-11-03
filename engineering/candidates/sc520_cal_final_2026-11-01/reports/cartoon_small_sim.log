@@ -1,0 +1,27 @@
+# do run_cartoon_small.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:20 on Nov 01,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/natural_enhance_96.v natural_enhance_reference.v ../candidate/sc520_shapes/user_source/hdl_source/isp/prewitt_detect_96.v tb_cartoon.sv 
+# -- Compiling module natural_enhance_96
+# -- Compiling module natural_enhance_reference
+# -- Compiling module prewitt_detect_96
+# -- Compiling module tb_cartoon
+# 
+# Top level modules:
+# 	tb_cartoon
+# End time: 12:45:20 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_cartoon 
+# Start time: 12:45:20 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_cartoon
+# Loading work.prewitt_detect_96
+# Loading work.natural_enhance_96
+# Loading work.natural_enhance_reference
+# PASS cartoon: 43008 exact pixels, 2 epochs, varied edge thresholds and enhancement levels, random bubbles, row/frame boundaries, three-cycle alignment, old enhancement bit-exact
+# ** Note: $finish    : tb_cartoon.sv(68)
+#    Time: 168940 ns  Iteration: 1  Instance: /tb_cartoon
+# Break in Module tb_cartoon at tb_cartoon.sv line 68
+# Stopped at tb_cartoon.sv line 68
+# End time: 12:45:21 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

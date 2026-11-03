@@ -1,0 +1,30 @@
+# do run_wall_home.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:57:24 on Nov 01,2026
+# vlog -work work_home -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v tb_wall_home.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module tb_wall_home
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_status_panel
+# 	tb_wall_home
+# End time: 13:57:24 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work_home.tb_wall_home 
+# Start time: 13:57:24 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_home.tb_wall_home
+# Loading work_home.wall_light_painter
+# PASS wall HOME: 1536 pixels; HOLD/DRAW/RIPPLE reopen LIVE, pending mid-frame command, coincident SOF, background preserved, pen up and stale trails cleared
+# ** Note: $finish    : tb_wall_home.sv(35)
+#    Time: 2653340 ns  Iteration: 1  Instance: /tb_wall_home
+# End time: 13:57:25 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

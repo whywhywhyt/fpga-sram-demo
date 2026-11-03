@@ -1,0 +1,26 @@
+# do run_bounds_small.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:31:14 on Nov 01,2026
+# vlog -work work_bounds_small -sv ../candidate/sc520_shapes/user_source/hdl_source/awb.v tb_cross_bounds.sv 
+# -- Compiling module awb
+# -- Compiling module awb_serial_ratio
+# -- Compiling module awb_spatial_calibration
+# -- Compiling module tb_cross_bounds
+# 
+# Top level modules:
+# 	awb
+# 	tb_cross_bounds
+# End time: 15:31:14 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work_bounds_small.tb_cross_bounds -gWIDTH=128 -gHEIGHT=64 -gCASES=32 
+# Start time: 15:31:14 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_bounds_small.tb_cross_bounds
+# Loading work_bounds_small.awb_spatial_calibration
+# PASS cross bounds: 65536 exact gains at 128x64, independent closed-form 2D reference, negative offsets, both saturation limits, line/SOF/valid gaps, identity reset
+# ** Note: $finish    : tb_cross_bounds.sv(67)
+#    Time: 665016 ns  Iteration: 0  Instance: /tb_cross_bounds
+# Break in Module tb_cross_bounds at tb_cross_bounds.sv line 67
+# Stopped at tb_cross_bounds.sv line 67
+# End time: 15:31:15 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

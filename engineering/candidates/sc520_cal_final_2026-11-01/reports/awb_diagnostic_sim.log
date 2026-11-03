@@ -1,0 +1,57 @@
+# do run_awb_diagnostic.do
+# onerror {quit -code 1 -f}
+# vlib work_awb_diagnostic
+# ** Warning: (vlib-34) Library already exists at "work_awb_diagnostic".
+# vmap work_awb_diagnostic work_awb_diagnostic
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work_awb_diagnostic work_awb_diagnostic 
+# Modifying modelsim.ini
+# vlog -work work_awb_diagnostic -sv ../candidate/sc520_shapes/user_source/hdl_source/awb.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v tb_awb_diagnostic.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:14:11 on Nov 01,2026
+# vlog -work work_awb_diagnostic -sv ../candidate/sc520_shapes/user_source/hdl_source/awb.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v tb_awb_diagnostic.sv 
+# -- Compiling module awb
+# -- Compiling module awb_serial_ratio
+# -- Compiling module awb_spatial_calibration
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module frame_status_96
+# -- Compiling module status_zh_glyph
+# -- Compiling module presentation_status_96
+# -- Compiling module tb_awb_diagnostic
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16
+# 	presentation_status_96
+# 	tb_awb_diagnostic
+# End time: 15:14:11 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -voptargs=+acc work_awb_diagnostic.tb_awb_diagnostic
+# vsim -c -voptargs="+acc" work_awb_diagnostic.tb_awb_diagnostic 
+# Start time: 15:14:12 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_awb_diagnostic.tb_awb_diagnostic
+# Loading work_awb_diagnostic.awb
+# Loading work_awb_diagnostic.awb_spatial_calibration
+# Loading work_awb_diagnostic.awb_serial_ratio
+# Loading work_awb_diagnostic.frame_status_96
+# Loading work_awb_diagnostic.status_zh_glyph
+# Loading work_awb_diagnostic.osd_font5x7
+# ** Warning: (vsim-3017) tb_awb_diagnostic.sv(6): [TFMPC] - Too few port connections. Expected 17, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_awb_diagnostic/aw File: ../candidate/sc520_shapes/user_source/hdl_source/awb.v
+# ** Warning: (vsim-3722) tb_awb_diagnostic.sv(6): [TFMPC] - Missing connection for port 'I_calibrate'.
+# ** Warning: (vsim-3722) tb_awb_diagnostic.sv(6): [TFMPC] - Missing connection for port 'I_cal_toggle'.
+# ** Warning: (vsim-3722) tb_awb_diagnostic.sv(6): [TFMPC] - Missing connection for port 'I_cal_clear'.
+# ** Warning: (vsim-3722) tb_awb_diagnostic.sv(6): [TFMPC] - Missing connection for port 'O_spatial_diag'.
+# ** Warning: (vsim-3017) tb_awb_diagnostic.sv(11): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_awb_diagnostic/overlay File: ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v
+# ** Warning: (vsim-3722) tb_awb_diagnostic.sv(11): [TFMPC] - Missing connection for port 'I_spatial_diag'.
+# run -all
+# PASS AWB diagnostic: real gains/statistics/frame count, 11520 text groups, all hex digits, SOF atomic snapshot and 2-stage transport
+# ** Note: $finish    : tb_awb_diagnostic.sv(53)
+#    Time: 1026480 ns  Iteration: 1  Instance: /tb_awb_diagnostic
+# End time: 15:14:15 on Nov 01,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 7

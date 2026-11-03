@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "compared_pixels": 525312,
+  "modes": 8,
+  "wall_states": 8,
+  "cal_off_retained": false,
+  "wall_rgb": "409fff",
+  "source": "RTL output after HDMI panels; unchanged Logo separately covered by full composite regression"
+}

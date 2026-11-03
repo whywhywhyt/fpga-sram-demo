@@ -1,0 +1,23 @@
+# do run_shape_stability.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:37:49 on Oct 31,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/shape_mul64.v ../candidate/sc520_shapes/user_source/hdl_source/shape_ccl.v tb_shape_stability.sv 
+# -- Compiling module shape_mul64
+# -- Compiling module shape_ccl
+# -- Compiling module tb_shape_stability
+# 
+# Top level modules:
+# 	tb_shape_stability
+# End time: 19:37:49 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_shape_stability 
+# Start time: 19:37:49 on Oct 31,2026
+# Loading sv_std.std
+# Loading work.tb_shape_stability
+# Loading work.shape_ccl
+# Loading work.shape_mul64
+# PASS box stability: jitter held, motion followed, color association isolated; circle/triangle/rectangle, speckles and target removal correct
+# ** Note: $finish    : tb_shape_stability.sv(93)
+#    Time: 1073975 ns  Iteration: 1  Instance: /tb_shape_stability
+# End time: 19:37:50 on Oct 31,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

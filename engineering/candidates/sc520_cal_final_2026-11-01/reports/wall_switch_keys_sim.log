@@ -1,0 +1,38 @@
+# do run_wall_switch_keys.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:43 on Nov 01,2026
+# vlog -work work_switch_keys -sv ../candidate/sc520_shapes/user_source/hdl_source/mode_button_control.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v ../candidate/sc520_shapes/user_source/hdl_source/wall_paint_precision.v tb_wall_switch_keys.sv 
+# -- Compiling module mode_button_control
+# -- Compiling module realtime_mode_control
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module wall_red_marker
+# -- Compiling module wall_paint_overlay
+# -- Compiling module tb_wall_switch_keys
+# 
+# Top level modules:
+# 	realtime_mode_control
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_light_painter
+# 	wall_status_panel
+# 	wall_red_marker
+# 	wall_paint_overlay
+# 	tb_wall_switch_keys
+# End time: 15:34:43 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work_switch_keys.tb_wall_switch_keys 
+# Start time: 15:34:43 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_switch_keys.tb_wall_switch_keys
+# Loading work_switch_keys.mode_button_control
+# PASS wall switch keys: 45 checks; global K3, exact scaled boundary, release-only shorts, no repeats, threshold clamps, mode guard, paint chord, CAL retained
+# ** Note: $finish    : tb_wall_switch_keys.sv(67)
+#    Time: 43920 ns  Iteration: 1  Instance: /tb_wall_switch_keys
+# End time: 15:34:44 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

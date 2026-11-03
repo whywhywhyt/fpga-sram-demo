@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FPGA 颜色与形状测试图</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#171b22;color:#edf1f5;font:16px/1.6 "Microsoft YaHei",sans-serif}main{max-width:1340px;margin:auto;padding:24px}h1{font-size:24px;margin:0 0 8px}p{margin:8px 0;color:#bcc7d5}button,select,input{font:inherit}button,select{padding:8px 16px;border:1px solid #536274;border-radius:7px;background:#27303d;color:inherit;cursor:pointer}button[aria-pressed=true]{outline:2px solid #e6edf5;outline-offset:2px}label{display:inline-flex;align-items:center;gap:8px}.tools{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:16px 0}.color{border-left:12px solid var(--patch)}#readout{font-family:Consolas,monospace;font-size:15px;color:#eef4fb}#stage{position:relative;background:rgb(192,192,192);width:100%;aspect-ratio:16/9;overflow:hidden}#stage svg{display:block;width:100%;height:100%}#stage:fullscreen{width:100vw;height:100vh;aspect-ratio:auto;display:grid;place-items:center;background:rgb(192,192,192)}#stage:fullscreen svg{width:100%;height:100%}.note{font-size:14px;color:#adb9c8}details{margin:18px 0;padding:12px 16px;background:#222a35;border-radius:8px}summary{cursor:pointer}kbd{border:1px solid #748094;padding:1px 5px;border-radius:4px}input[type=range]{width:150px}.status{color:#e2eaf4}
+</style>
+<main>
+<h1>颜色与形状测试图</h1>
+<p>固定 RGB 输入，便于比较校色、亮度和识别表现。先保持电脑亮度、夜间模式、机位与现场光照一致。</p>
+<div class="tools" id="colors"></div>
+<div class="tools">
+<label>形状 <select id="shape"><option value="circle">圆形</option><option value="triangle">三角形</option><option value="rectangle">矩形</option></select></label>
+<label>大小 <input id="size" type="range" min="100" max="380" value="240"><span id="sizeValue">240</span></label>
+<button id="multi" aria-pressed="false">四色同屏</button>
+<button id="blank" aria-pressed="false">空背景</button>
+<button id="motion" aria-pressed="false">缓慢移动</button>
+<button id="fullscreen">全屏图卡（F）</button>
+</div>
+<div class="tools"><span id="readout"></span><span class="status" id="state"></span></div>
+<section id="stage" aria-label="摄像头测试图卡">
+<svg id="canvas" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid meet" role="img" aria-label="纯色色块"></svg>
+</section>
+<p class="note">全屏时只显示目标和 RGB(192,192,192) 灰背景。快捷键：R/G/B/Y 选颜色；1/2/3 选圆/三角/矩形；4 四色同屏；0 空背景；空格 移动；F 全屏；Esc 退出全屏。</p>
+<details open><summary>如何使用</summary>
+<p>① 先用均匀照明的实体白纸做 FPGA 白场校色。本页用于测试彩色目标，不能代替实体白纸标定。</p>
+<p>② 先选单个颜色与形状，让图卡区域正对摄像头。依次比较四种颜色和三种形状；空背景用于检查误框。</p>
+<p>③ 进入全屏后让图卡占据相机画面的大部分区域，保留目标四周的灰背景。静态测试先关闭“缓慢移动”；移动稳定性仍建议用实体红块复测。</p>
+<p>④ 拍照记录版本、CAL ON/OFF、色块RGB、形状与现象。相同状态下比较提亮/降噪候选与回退版。</p>
+<p>这里给出的是网页像素的RGB值；显示器实际发光还受亮度、色彩设置与视角影响，不能据手机拍屏像素直接计算相机补偿系数。</p>
+</details>
+</main>
+<script>
+(() => {
+  'use strict';
+  const palette = [
+    {id:'red',name:'红',rgb:[220,32,32],key:'r'},
+    {id:'yellow',name:'黄',rgb:[220,192,32],key:'y'},
+    {id:'green',name:'绿',rgb:[32,180,64],key:'g'},
+    {id:'blue',name:'蓝',rgb:[32,64,220],key:'b'}
+  ];
+  const $=id=>document.getElementById(id);
+  const query=new URLSearchParams(location.search);
+  let selected=palette.find(p=>p.id===query.get('color'))||palette[0];
+  let multi=query.get('multi')==='1',blank=query.get('blank')==='1',moving=false;
+  let start=0,frame=0;
+  const shape=$('shape'),size=$('size');
+  if(['circle','triangle','rectangle'].includes(query.get('shape')))shape.value=query.get('shape');
+  const requestedSize=Number(query.get('size'));
+  if(query.has('size') && Number.isFinite(requestedSize))size.value=String(Math.max(100,Math.min(380,requestedSize)));
+  const css=p=>`rgb(${p.rgb.join(',')})`;
+  const hex=p=>'#'+p.rgb.map(c=>c.toString(16).padStart(2,'0')).join('').toUpperCase();
+  for(const p of palette){
+    const button=document.createElement('button');
+    button.textContent=`${p.name} ${p.key.toUpperCase()}`;
+    button.className='color';button.style.setProperty('--patch',css(p));button.dataset.color=p.id;
+    button.addEventListener('click',()=>{selected=p;blank=false;update();});
+    $('colors').append(button);
+  }
+  function object(p,cx,cy,h){
+    const ns='http://www.w3.org/2000/svg';
+    const tag=shape.value==='circle'?'circle':shape.value==='triangle'?'polygon':'rect';
+    const el=document.createElementNS(ns,tag);
+    const attrs=tag==='circle'?{cx,cy,r:h/2}:tag==='polygon'?
+      {points:`${cx},${cy-h/2} ${cx-h*.58},${cy+h/2} ${cx+h*.58},${cy+h/2}`}:
+      {x:cx-h*.75,y:cy-h/2,width:h*1.5,height:h};
+    for(const [k,v] of Object.entries(attrs))el.setAttribute(k,String(v));
+    el.setAttribute('fill',css(p));el.dataset.color=p.id;
+    $('canvas').append(el);
+  }
+  function render(time=0){
+    $('canvas').replaceChildren();
+    if(blank)return;
+    const h=Number(size.value);
+    if(multi){
+      const pts=[[320,190],[960,190],[320,530],[960,530]];
+      palette.forEach((p,i)=>object(p,pts[i][0],pts[i][1],Math.min(h,220)));
+    }else{
+      const t=(time-start)/1000;
+      const x=moving?640+300*Math.sin(t*.55):640;
+      const y=moving?360+90*Math.sin(t*.35):360;
+      object(selected,x,y,h);
+    }
+  }
+  function loop(time){render(time);frame=requestAnimationFrame(loop);}
+  function update(){
+    $('colors').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.color===selected.id&&!multi&&!blank)));
+    for(const [id,on] of [['multi',multi],['blank',blank],['motion',moving]])$(id).setAttribute('aria-pressed',String(on));
+    $('sizeValue').textContent=size.value;
+    $('readout').textContent=multi?palette.map(p=>`${p.name}: RGB(${p.rgb.join(',')}) ${hex(p)}`).join(' · '):`${selected.name}: RGB(${selected.rgb.join(',')}) ${hex(selected)}`;
+    $('state').textContent=blank?'空背景':multi?'四色静态':moving?'单目标缓慢移动':'单目标静态';
+    cancelAnimationFrame(frame);render(performance.now());
+    if(moving&&!multi&&!blank)frame=requestAnimationFrame(loop);
+  }
+  function fullscreen(){
+    if(document.fullscreenElement)document.exitFullscreen();
+    else $('stage').requestFullscreen().catch(()=>{$('state').textContent='请点击全屏按钮，或按浏览器F11后放大图卡';});
+  }
+  shape.addEventListener('change',update);size.addEventListener('input',update);
+  $('multi').onclick=()=>{multi=!multi;blank=false;update();};
+  $('blank').onclick=()=>{blank=!blank;update();};
+  $('motion').onclick=()=>{moving=!moving;multi=false;blank=false;start=performance.now();update();};
+  $('fullscreen').onclick=fullscreen;
+  addEventListener('keydown',e=>{
+    if(e.target.matches('input,select'))return;
+    const key=e.key.toLowerCase(),p=palette.find(c=>c.key===key);
+    if(p){selected=p;multi=false;blank=false;update();}
+    else if(['1','2','3'].includes(key)){shape.value=['circle','triangle','rectangle'][Number(key)-1];update();}
+    else if(key==='4')$('multi').click();else if(key==='0')$('blank').click();
+    else if(key===' '){e.preventDefault();$('motion').click();}else if(key==='f')fullscreen();
+  });
+  update();
+})();
+</script>
+</html>

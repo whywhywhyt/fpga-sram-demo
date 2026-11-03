@@ -1,0 +1,27 @@
+# do run_calibration.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:31:32 on Nov 01,2026
+# vlog -work work_calibration -sv ../candidate/sc520_shapes/user_source/hdl_source/awb.v tb_cross_calibration.sv 
+# -- Compiling module awb
+# -- Compiling module awb_serial_ratio
+# -- Compiling module awb_spatial_calibration
+# -- Compiling module tb_cross_calibration
+# 
+# Top level modules:
+# 	tb_cross_calibration
+# End time: 15:31:32 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work_calibration.tb_cross_calibration 
+# Start time: 15:31:32 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_calibration.tb_cross_calibration
+# Loading work_calibration.awb
+# Loading work_calibration.awb_spatial_calibration
+# Loading work_calibration.awb_serial_ratio
+# PASS cross calibration: independent raw RGB sums/ratios, four white frames, SOF atomic publication, symmetric five-patch capture and 2D DDA, 58015 checked cycles and 40960 RGB groups, 64-clock four-lane transport, five rejected fields, keep old table, truncation, ignored bypass/clear/reset
+# ** Note: $finish    : tb_cross_calibration.sv(132)
+#    Time: 723690 ns  Iteration: 1  Instance: /tb_cross_calibration
+# Break in Module tb_cross_calibration at tb_cross_calibration.sv line 132
+# Stopped at tb_cross_calibration.sv line 132
+# End time: 15:31:34 on Nov 01,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

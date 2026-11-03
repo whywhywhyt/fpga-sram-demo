@@ -1,0 +1,27 @@
+# do run_yellow_circle.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:37:30 on Oct 31,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/shape_mul64.v ../candidate/sc520_shapes/user_source/hdl_source/shape_ccl.v ../candidate/sc520_shapes/user_source/hdl_source/shape_color_vote_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_detector_96.v tb_yellow_circle.sv 
+# -- Compiling module shape_mul64
+# -- Compiling module shape_ccl
+# -- Compiling module shape_color_vote_96
+# -- Compiling module shape_detector_96
+# -- Compiling module tb_yellow_circle
+# 
+# Top level modules:
+# 	tb_yellow_circle
+# End time: 19:37:30 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_yellow_circle 
+# Start time: 19:37:30 on Oct 31,2026
+# Loading sv_std.std
+# Loading work.tb_yellow_circle
+# Loading work.shape_detector_96
+# Loading work.shape_color_vote_96
+# Loading work.shape_ccl
+# Loading work.shape_mul64
+# PASS yellow circle: shape=CIRCLE color=YELLOW cells=81 cycles=10260
+# ** Note: $finish    : tb_yellow_circle.sv(50)
+#    Time: 225525 ns  Iteration: 1  Instance: /tb_yellow_circle
+# End time: 19:37:31 on Oct 31,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

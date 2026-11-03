@@ -1,0 +1,30 @@
+TRST OFF;
+ENDIR IDLE;
+ENDDR IDLE;
+STATE RESET;
+STATE IDLE;
+FREQUENCY 1.00e+06 HZ;
+TDR 0 ;
+TIR 0 ;
+HDR 0 ;
+HIR 0 ;
+//Disable Dual boot loop. 
+SIR 8 TDI (80) ;
+SDR 64 TDI (00800000000000a5) ;
+RUNTEST 200 TCK ;
+//Loading device with 'bypass' instruction. 
+SIR 8 TDI (ff) ;
+SIR 8 TDI (ff) ;
+//Loading device with 'idcode' instruction.
+SIR 8 TDI (06) ;
+RUNTEST 15 TCK ;
+SDR 32 TDI (00000000) TDO (4808F0E7) MASK (FFFFFFFF) ;
+//Loading device with 'read_status' instruction.
+SIR 8 TDI (46) ;
+SDR 32 TDI (00000000) TDO (80000000) MASK (80000000) ;
+RUNTEST 15 TCK ;
+SIR 8 TDI (FF) ;
+RUNTEST 15 TCK ;
+SIR 8 TDI (80) ;
+SDR 64 TDI (00000000000000a5) ;
+RUNTEST 200 TCK ;

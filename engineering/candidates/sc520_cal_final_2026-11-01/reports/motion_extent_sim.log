@@ -1,0 +1,30 @@
+# do run_motion_extent.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:16 on Nov 01,2026
+# vlog -work work_motion_extent -sv ../candidate/sc520_shapes/user_source/hdl_source/motion_detect_96.v tb_motion_extent.sv 
+# -- Compiling module motion_frame_diff_96
+# -- Compiling module motion_status_overlay_96
+# -- Compiling module motion_region_detect_96
+# -- Compiling module motion_region_overlay_96
+# -- Compiling module tb_motion_extent
+# 
+# Top level modules:
+# 	motion_frame_diff_96
+# 	motion_status_overlay_96
+# 	motion_region_overlay_96
+# 	tb_motion_extent
+# End time: 12:45:16 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" work_motion_extent.tb_motion_extent 
+# Start time: 12:45:16 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_motion_extent.tb_motion_extent
+# Loading work_motion_extent.motion_region_detect_96
+# PASS motion extent: real streamed samples, joined foreground growth, shrink convergence, bounded extent and image edges, initial acquisition and delayed publication; 67 checks
+# ** Note: $finish    : tb_motion_extent.sv(46)
+#    Time: 2504960 ns  Iteration: 1  Instance: /tb_motion_extent
+# Break in Module tb_motion_extent at tb_motion_extent.sv line 46
+# Stopped at tb_motion_extent.sv line 46
+# End time: 12:45:18 on Nov 01,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

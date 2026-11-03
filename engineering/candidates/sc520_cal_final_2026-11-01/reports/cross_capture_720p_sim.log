@@ -1,0 +1,27 @@
+# do run_capture_720p.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:31:36 on Nov 01,2026
+# vlog -work work_capture_720p -sv ../candidate/sc520_shapes/user_source/hdl_source/awb.v tb_cross_capture_720p.sv 
+# -- Compiling module awb
+# -- Compiling module awb_serial_ratio
+# -- Compiling module awb_spatial_calibration
+# -- Compiling module tb_cross_capture_720p
+# 
+# Top level modules:
+# 	tb_cross_capture_720p
+# End time: 15:31:36 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work_capture_720p.tb_cross_capture_720p 
+# Start time: 15:31:36 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_capture_720p.tb_cross_capture_720p
+# Loading work_capture_720p.awb
+# Loading work_capture_720p.awb_spatial_calibration
+# Loading work_capture_720p.awb_serial_ratio
+# PASS cross capture 720p: independent raw RGB sums/ratios, four white frames, SOF atomic publication, symmetric five-patch capture and 2D DDA, 503891 checked cycles and 1843200 RGB groups, 64-clock four-lane transport, 720p source enumeration and full-resolution sampled counts
+# ** Note: $finish    : tb_cross_capture_720p.sv(120)
+#    Time: 20161716 ns  Iteration: 0  Instance: /tb_cross_capture_720p
+# Break in Module tb_cross_capture_720p at tb_cross_capture_720p.sv line 120
+# Stopped at tb_cross_capture_720p.sv line 120
+# End time: 15:32:33 on Nov 01,2026, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0

@@ -1,0 +1,13 @@
+# Local runtime output; original evidence and reports are kept.
+/logs/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+
+# Local credentials and editor settings.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

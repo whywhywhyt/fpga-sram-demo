@@ -1,0 +1,34 @@
+# do run_paint_precision.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:51:37 on Nov 01,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v ../candidate/sc520_shapes/user_source/hdl_source/wall_paint_precision.v tb_paint_precision.sv tb_red_marker.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module wall_red_marker
+# -- Compiling module wall_paint_overlay
+# -- Compiling module tb_paint_precision
+# -- Compiling module tb_red_marker
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_status_panel
+# 	wall_paint_overlay
+# 	tb_paint_precision
+# 	tb_red_marker
+# End time: 13:51:38 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_paint_precision 
+# Start time: 13:51:38 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_paint_precision
+# Loading work.wall_light_painter
+# PASS paint precision: 11264 exact pixels; one-cell slow steps, continuous fast/diagonal lines, pen-up reposition, loss/jump breaks, clear, hold, 32/255 peak
+# ** Note: $finish    : tb_paint_precision.sv(59)
+#    Time: 6290820 ns  Iteration: 1  Instance: /tb_paint_precision
+# End time: 13:51:39 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

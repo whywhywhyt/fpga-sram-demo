@@ -1,0 +1,52 @@
+# do run_realtime_keys.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:44:07 on Nov 01,2026
+# vlog -work work_realtime -sv ../candidate/sc520_shapes/user_source/hdl_source/mode_button_control.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v tb_realtime_keys.sv tb_wall_home.sv 
+# -- Compiling module mode_button_control
+# -- Compiling module realtime_mode_control
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module tb_realtime_keys
+# -- Compiling module tb_realtime_50m
+# -- Compiling module tb_wall_home
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_status_panel
+# 	tb_realtime_keys
+# 	tb_realtime_50m
+# 	tb_wall_home
+# End time: 15:44:07 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" work_realtime.tb_realtime_keys 
+# Start time: 15:44:07 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_realtime.tb_realtime_keys
+# Loading work_realtime.realtime_mode_control
+# Loading work_realtime.mode_button_control
+# PASS realtime keys: 16 checks; stopped/bursty camera, system-clock hold, coherent CDC, ordered repeated CAL captures and removed bypass, OFF gating, reset
+# ** Note: $finish    : tb_realtime_keys.sv(66)
+#    Time: 100720 ns  Iteration: 1  Instance: /tb_realtime_keys
+# Break in Module tb_realtime_keys at tb_realtime_keys.sv line 66
+# Stopped at tb_realtime_keys.sv line 66
+# End time: 15:44:08 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" work_realtime.tb_realtime_50m 
+# Start time: 15:44:08 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_realtime.tb_realtime_50m
+# Loading work_realtime.realtime_mode_control
+# Loading work_realtime.mode_button_control
+# PASS production 50MHz timing: 1510000030000 from press including 10ms debounce; camera held stopped, one toggle, no threshold or mode action
+# ** Note: $finish    : tb_realtime_keys.sv(90)
+#    Time: 1541000230 ns  Iteration: 0  Instance: /tb_realtime_50m
+# Break in Module tb_realtime_50m at tb_realtime_keys.sv line 90
+# Stopped at tb_realtime_keys.sv line 90
+# End time: 15:48:35 on Nov 01,2026, Elapsed time: 0:04:27
+# Errors: 0, Warnings: 0

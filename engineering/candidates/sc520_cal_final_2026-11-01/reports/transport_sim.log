@@ -1,0 +1,37 @@
+# do run_transport.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:52:36 on Nov 01,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_paint_precision.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v ../candidate/sc520_shapes/user_source/hdl_source/interactive_lightwall.v tb_transport.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_red_marker
+# -- Compiling module wall_paint_overlay
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module wall_rgb96_capture
+# -- Compiling module wall_ws2812_tx
+# -- Compiling module interactive_lightwall
+# -- Compiling module wall_output_switch
+# -- Compiling module tb_transport
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_paint_overlay
+# 	wall_status_panel
+# 	interactive_lightwall
+# 	tb_transport
+# End time: 13:52:37 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_transport 
+# Start time: 13:52:37 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_transport
+# Loading work.wall_ws2812_tx
+# PASS transport: 512 GRB words, 6144 one / 6144 zero pulses, exact 20/40 high of 63 ticks, 15000-tick latch; physical keys are covered by unified-key suites
+# ** Note: $finish    : tb_transport.sv(32)
+#    Time: 16093231 ns  Iteration: 0  Instance: /tb_transport
+# End time: 13:52:38 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,63 @@
+# do run_integrated.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:14:20 on Nov 01,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/awb.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_paint_precision.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v ../candidate/sc520_shapes/user_source/hdl_source/interactive_lightwall.v tb_integrated.sv 
+# -- Compiling module awb
+# -- Compiling module awb_serial_ratio
+# -- Compiling module awb_spatial_calibration
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_red_marker
+# -- Compiling module wall_paint_overlay
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module wall_rgb96_capture
+# -- Compiling module wall_ws2812_tx
+# -- Compiling module interactive_lightwall
+# -- Compiling module wall_output_switch
+# -- Compiling module tb_integrated
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_paint_overlay
+# 	wall_status_panel
+# 	tb_integrated
+# End time: 15:14:21 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_integrated 
+# Start time: 15:14:21 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_integrated
+# Loading work.awb
+# Loading work.awb_spatial_calibration
+# Loading work.awb_serial_ratio
+# Loading work.interactive_lightwall
+# Loading work.wall_rgb96_capture
+# Loading work.wall_red_marker
+# Loading work.wall_light_painter
+# Loading work.wall_output_switch
+# Loading work.wall_ws2812_tx
+# ** Warning: (vsim-3017) tb_integrated.sv(9): [TFMPC] - Too few port connections. Expected 17, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated/real_awb File: ../candidate/sc520_shapes/user_source/hdl_source/awb.v
+# ** Warning: (vsim-3722) tb_integrated.sv(9): [TFMPC] - Missing connection for port 'I_calibrate'.
+# ** Warning: (vsim-3722) tb_integrated.sv(9): [TFMPC] - Missing connection for port 'I_cal_toggle'.
+# ** Warning: (vsim-3722) tb_integrated.sv(9): [TFMPC] - Missing connection for port 'I_cal_clear'.
+# ** Warning: (vsim-3722) tb_integrated.sv(9): [TFMPC] - Missing connection for port 'O_spatial_diag'.
+# ** Warning: (vsim-3722) tb_integrated.sv(9): [TFMPC] - Missing connection for port 'O_diagnostics'.
+# CHECK integrated frame0 object_x-1 HDMI_mode0
+# CHECK integrated frame1 object_x-1 HDMI_mode0
+# CHECK integrated frame2 object_x-1 HDMI_mode0
+# CHECK integrated frame3 object_x3 HDMI_mode0
+# CHECK integrated frame4 object_x4 HDMI_mode0
+# CHECK integrated frame5 object_x8 HDMI_mode3
+# CHECK integrated frame6 object_x8 HDMI_mode3
+# CHECK integrated frame7 object_x-1 HDMI_mode4
+# CHECK integrated frame8 object_x-1 HDMI_mode0
+# PASS integrated: 4608 RGB96-to-serial words; real_AWB=0, WAIT exits after warmup, coincident/early SOF, exact spatial averaging, foreground/halo/trails, speed hue, stationary retention, mode independence, both-panel serpentine GRB ordering, immutable output and bank lifetime
+# ** Note: $finish    : tb_integrated.sv(104)
+#    Time: 164950400 ns  Iteration: 1  Instance: /tb_integrated
+# End time: 15:18:34 on Nov 01,2026, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 6

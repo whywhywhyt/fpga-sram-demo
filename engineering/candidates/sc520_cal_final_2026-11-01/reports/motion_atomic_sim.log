@@ -1,0 +1,30 @@
+# do run_motion_atomic.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:00 on Nov 01,2026
+# vlog -work work_atomic -sv ../candidate/sc520_shapes/user_source/hdl_source/motion_detect_96.v tb_motion_regions.sv 
+# -- Compiling module motion_frame_diff_96
+# -- Compiling module motion_status_overlay_96
+# -- Compiling module motion_region_detect_96
+# -- Compiling module motion_region_overlay_96
+# -- Compiling module tb_motion_regions
+# 
+# Top level modules:
+# 	motion_frame_diff_96
+# 	motion_status_overlay_96
+# 	tb_motion_regions
+# End time: 12:45:00 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" work_atomic.tb_motion_regions -gAUTO=1 
+# Start time: 12:45:00 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_atomic.tb_motion_regions
+# Loading work_atomic.motion_region_detect_96
+# Loading work_atomic.motion_region_overlay_96
+# PASS motion regions: full720=0 autoSOF=1 frames=22 mapchecks=0 rasterbeats=70401; 16 samples, independent BFS oracle, isolated rejection, largest separated region, confirmation/hold/expiry, global suppression, exact bypass, early SOF/bubbles/protocol rejection
+# ** Note: $finish    : tb_motion_regions.sv(114)
+#    Time: 1445840 ns  Iteration: 1  Instance: /tb_motion_regions
+# Break in Module tb_motion_regions at tb_motion_regions.sv line 114
+# Stopped at tb_motion_regions.sv line 114
+# End time: 12:45:03 on Nov 01,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

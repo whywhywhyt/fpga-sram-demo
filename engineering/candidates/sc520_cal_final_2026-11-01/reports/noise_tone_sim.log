@@ -1,0 +1,29 @@
+# do run_noise_tone.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:22 on Nov 01,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/isp/isp_top.v tb_noise_tone.sv 
+# -- Compiling module isp_top
+# -- Compiling module axis_gamma_rgb96
+# -- Compiling module axis_crop_rgb96
+# -- Compiling module axis_tone_rgb96
+# -- Compiling module tb_noise_tone
+# 
+# Top level modules:
+# 	isp_top
+# 	axis_gamma_rgb96
+# 	axis_crop_rgb96
+# 	tb_noise_tone
+# End time: 12:39:23 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_noise_tone 
+# Start time: 12:39:23 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_noise_tone
+# Loading work.axis_tone_rgb96
+# PASS display noise: 27206 independent RGB groups, edge/black/neutral bounds, row/frame resets, invalid gaps and four-clock pipelined transport
+# ** Note: $finish    : tb_noise_tone.sv(25)
+#    Time: 272160 ns  Iteration: 1  Instance: /tb_noise_tone
+# Break in Module tb_noise_tone at tb_noise_tone.sv line 25
+# Stopped at tb_noise_tone.sv line 25
+# End time: 12:39:24 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

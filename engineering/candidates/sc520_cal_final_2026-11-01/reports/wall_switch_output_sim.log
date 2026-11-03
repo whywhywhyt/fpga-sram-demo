@@ -1,0 +1,59 @@
+# do run_wall_switch_output.do
+# ../candidate/sc520_shapes/user_source/hdl_source
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:48 on Nov 01,2026
+# vlog -work work_switch_output -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_paint_precision.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v ../candidate/sc520_shapes/user_source/hdl_source/interactive_lightwall.v tb_wall_switch_output.sv tb_wall_switch_live.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_red_marker
+# -- Compiling module wall_paint_overlay
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module wall_rgb96_capture
+# -- Compiling module wall_ws2812_tx
+# -- Compiling module interactive_lightwall
+# -- Compiling module wall_output_switch
+# -- Compiling module tb_wall_switch_output
+# -- Compiling module tb_wall_switch_live
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_paint_overlay
+# 	wall_status_panel
+# 	tb_wall_switch_output
+# 	tb_wall_switch_live
+# End time: 13:40:48 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" work_switch_output.tb_wall_switch_output 
+# Start time: 13:40:48 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_switch_output.tb_wall_switch_output
+# Loading work_switch_output.wall_output_switch
+# Loading work_switch_output.wall_ws2812_tx
+# PASS wall switch output: 9 full 512-pixel frames, 4608 decoded GRB words, 110592 exact pulses; camera-free black, frame-atomic mute, queued restart, muted acknowledgements, reset
+# ** Note: $finish    : tb_wall_switch_output.sv(62)
+#    Time: 142440450 ns  Iteration: 2  Instance: /tb_wall_switch_output
+# Break in Module tb_wall_switch_output at tb_wall_switch_output.sv line 62
+# Stopped at tb_wall_switch_output.sv line 62
+# End time: 13:41:00 on Nov 01,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" work_switch_output.tb_wall_switch_live 
+# Start time: 13:41:00 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_switch_output.tb_wall_switch_live
+# Loading work_switch_output.interactive_lightwall
+# Loading work_switch_output.wall_rgb96_capture
+# Loading work_switch_output.wall_red_marker
+# Loading work_switch_output.wall_light_painter
+# Loading work_switch_output.wall_output_switch
+# Loading work_switch_output.wall_ws2812_tx
+# PASS wall switch live: five 720p camera frames, default OFF, full banks and recovery, four complete 512-word engine transmissions, active camera-free blackout, resume and LIVE status
+# ** Note: $finish    : tb_wall_switch_live.sv(57)
+#    Time: 134146800 ns  Iteration: 1  Instance: /tb_wall_switch_live
+# Break in Module tb_wall_switch_live at tb_wall_switch_live.sv line 57
+# Stopped at tb_wall_switch_live.sv line 57
+# End time: 13:41:58 on Nov 01,2026, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0

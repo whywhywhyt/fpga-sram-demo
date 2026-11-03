@@ -1,0 +1,53 @@
+# do run_painter.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:52:08 on Nov 01,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/wall_paint_precision.v ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v tb_light_painter.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module wall_red_marker
+# -- Compiling module wall_paint_overlay
+# -- Compiling module wall_light_painter
+# -- Compiling module wall_status_panel
+# -- Compiling module tb_light_painter
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16_sync
+# 	wall_red_marker
+# 	wall_paint_overlay
+# 	wall_status_panel
+# 	tb_light_painter
+# End time: 13:52:09 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_light_painter 
+# Start time: 13:52:09 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_light_painter
+# Loading work.wall_light_painter
+# ** Warning: (vsim-3017) tb_light_painter.sv(14): [TFMPC] - Too few port connections. Expected 26, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_light_painter/dut File: ../candidate/sc520_shapes/user_source/hdl_source/wall_light_painter.v
+# ** Warning: (vsim-3722) tb_light_painter.sv(14): [TFMPC] - Missing connection for port 'pen_down'.
+# ** Warning: (vsim-3722) tb_light_painter.sv(14): [TFMPC] - Missing connection for port 'canvas_write'.
+# ** Warning: (vsim-3722) tb_light_painter.sv(14): [TFMPC] - Missing connection for port 'canvas_addr'.
+# ** Warning: (vsim-3722) tb_light_painter.sv(14): [TFMPC] - Missing connection for port 'canvas_rgb'.
+# CHECKED frame 0 status 0 foreground 0
+# CHECKED frame 20 status 2 foreground 12
+# CHECKED frame 40 status 2 foreground 12
+# CHECKED frame 60 status 2 foreground 12
+# CHECKED frame 80 status 2 foreground 12
+# CHECKED frame 100 status 2 foreground 0
+# CHECKED frame 120 status 2 foreground 0
+# CHECKED frame 140 status 2 foreground 0
+# CHECKED frame 160 status 3 foreground 12
+# CHECKED frame 180 status 6 foreground 12
+# CHECKED frame 200 status 6 foreground 0
+# CHECKED frame 220 status 6 foreground 0
+# CHECKED frame 240 status 6 foreground 0
+# CHECKED frame 260 status 2 foreground 0
+# PASS painter: 267 frames / 136704 independent pixel comparisons; fixed background, noise rejection, stationary retention, velocity hue, contour, halo, fade-to-zero, centered paint strokes, freeze, octagonal ripple expansion, resume, recapture, reset
+# ** Note: $finish    : tb_light_painter.sv(47)
+#    Time: 77973900 ns  Iteration: 1  Instance: /tb_light_painter
+# End time: 13:52:18 on Nov 01,2026, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 5

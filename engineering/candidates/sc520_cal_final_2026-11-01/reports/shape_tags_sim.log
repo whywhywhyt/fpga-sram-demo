@@ -1,0 +1,47 @@
+# do run_shape_tags.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:52:40 on Nov 01,2026
+# vlog -sv ../candidate/sc520_shapes/user_source/hdl_source/shape_mul64.v ../candidate/sc520_shapes/user_source/hdl_source/shape_ccl.v ../candidate/sc520_shapes/user_source/hdl_source/shape_color_vote_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_detector_96.v ../candidate/sc520_shapes/user_source/hdl_source/shape_overlay_96.v ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v tb_shape_overlay.sv tb_shape_tags.sv 
+# -- Compiling module shape_mul64
+# -- Compiling module shape_ccl
+# -- Compiling module shape_color_vote_96
+# -- Compiling module shape_detector_96
+# -- Compiling module target_overlay_96
+# -- Compiling module shape_panel_char
+# -- Compiling module shape_tag_char
+# -- Compiling module shape_tag_zh_char
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module tb_shape_overlay
+# -- Compiling module tb_shape_tags
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16
+# 	tb_shape_tags
+# End time: 13:52:40 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_shape_tags 
+# Start time: 13:52:40 on Nov 01,2026
+# Loading sv_std.std
+# Loading work.tb_shape_tags
+# Loading work.tb_shape_overlay
+# Loading work.target_overlay_96
+# Loading work.shape_detector_96
+# Loading work.shape_color_vote_96
+# Loading work.shape_ccl
+# Loading work.shape_mul64
+# Loading work.shape_panel_char
+# Loading work.osd_font5x7
+# Loading work.shape_tag_char
+# ** Warning: (vsim-3017) tb_shape_overlay.sv(18): [TFMPC] - Too few port connections. Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_shape_tags/raster/dut File: ../candidate/sc520_shapes/user_source/hdl_source/shape_overlay_96.v
+# ** Warning: (vsim-3722) tb_shape_overlay.sv(18): [TFMPC] - Missing connection for port 'I_detection_data'.
+# PASS shape tags: color/shape labels and compact center coordinates
+# PASS overlay raster: 921600 known pixels, four-color borders/title, edge clamping, white text, 8-clock transport, center BCD and near-SOF atomic publication
+# ** Note: $finish    : tb_shape_overlay.sv(85)
+#    Time: 2306620 ns  Iteration: 1  Instance: /tb_shape_tags/raster
+# End time: 13:52:55 on Nov 01,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 2

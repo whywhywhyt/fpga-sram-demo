@@ -1,0 +1,46 @@
+# do run_spatial_probe.do
+# onerror {quit -code 1 -f}
+# vlib work_spatial_probe
+# vmap work_spatial_probe work_spatial_probe
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work_spatial_probe work_spatial_probe 
+# Modifying modelsim.ini
+# vlog -work work_spatial_probe -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v frame_status_baseline.v tb_spatial_probe.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:43:58 on Nov 01,2026
+# vlog -work work_spatial_probe -sv ../candidate/sc520_shapes/user_source/hdl_source/osd_font5x7.v ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v frame_status_baseline.v tb_spatial_probe.sv 
+# -- Compiling module osd_title_char
+# -- Compiling module osd_font5x7
+# -- Compiling module presentation_font16
+# -- Compiling module presentation_font16_sync
+# -- Compiling module frame_status_96
+# -- Compiling module status_zh_glyph
+# -- Compiling module presentation_status_96
+# -- Compiling module frame_status_baseline
+# -- Compiling module tb_spatial_probe
+# 
+# Top level modules:
+# 	osd_title_char
+# 	presentation_font16
+# 	presentation_status_96
+# 	tb_spatial_probe
+# End time: 15:43:58 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -voptargs=+acc work_spatial_probe.tb_spatial_probe
+# vsim -c -voptargs="+acc" work_spatial_probe.tb_spatial_probe 
+# Start time: 15:43:58 on Nov 01,2026
+# Loading sv_std.std
+# Loading work_spatial_probe.tb_spatial_probe
+# Loading work_spatial_probe.frame_status_96
+# Loading work_spatial_probe.status_zh_glyph
+# Loading work_spatial_probe.osd_font5x7
+# Loading work_spatial_probe.frame_status_baseline
+# ** Warning: (vsim-3017) tb_spatial_probe.sv(11): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_spatial_probe/dut File: ../candidate/sc520_shapes/user_source/hdl_source/frame_status_96.v
+# ** Warning: (vsim-3722) tb_spatial_probe.sv(11): [TFMPC] - Missing connection for port 'I_spatial_diag'.
+# run -all
+# PASS spatial probe: 2 full 720p frames, 19968 neutral groups, 440832 unchanged groups, all RGB lanes, bubbles and unchanged two-stage transport
+# ** Note: $finish    : tb_spatial_probe.sv(64)
+#    Time: 4636890 ns  Iteration: 1  Instance: /tb_spatial_probe
+# End time: 15:44:05 on Nov 01,2026, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 2

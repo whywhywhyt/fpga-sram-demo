@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-01T15:53:09.873970+08:00",
+  "passed": true,
+  "changed_files": [
+    "user_source/hdl_source/awb.v",
+    "user_source/hdl_source/frame_status_96.v",
+    "user_source/hdl_source/mode_button_control.v"
+  ],
+  "rgb_pipeline_and_ratio_arithmetic_unchanged": true,
+  "spatial_sampling_interpolation_and_gain_bounds_unchanged": true,
+  "lamps_fonts_shape_motion_tone_pins_constraints_unchanged": true
+}
