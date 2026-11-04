@@ -1,0 +1,17 @@
+{
+  "manifest_files": 1165,
+  "source_snapshot_files": 464,
+  "td_project_references": 78,
+  "build_source_hashes": 242,
+  "simulation_input_hashes": 360,
+  "historical_simulation_log_hashes": 40,
+  "errors": [],
+  "hardware_accessed": false,
+  "simulation_rerun": false,
+  "synthesis_rerun": false,
+  "candidate": "sc520_cal_final_2026-11-01",
+  "bit_sha256": "f6a70cbb28952be264bc96c47d753bb9caf8edbc1e87d0f2ef8c4adc300dcaed",
+  "historical_simulation_suite_count": 40,
+  "historical_sram_done_passed": true,
+  "passed": true
+}

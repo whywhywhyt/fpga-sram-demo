@@ -1,0 +1,18 @@
+{
+  "original_package_files": 1166,
+  "mismatches": [],
+  "checked_date": "2026-11-04",
+  "original_git_commit": "cfc7b7188a2726c2f761901e30eee7bb706713e9",
+  "visibility_requested": "private",
+  "source_archives": [
+    {
+      "name": "fpga-sram-demo-transfer.zip",
+      "sha256": "913a1e239902984a66c812fa2b587adce64ba43b5e4ad2b256b277ae885881dc"
+    },
+    {
+      "name": "FPGA全功能SRAM展示交接包_2026-11-01.zip",
+      "sha256": "6cea35f3b8c7593ce23d6f987b3edfb8163505c16287c510c5a8e220bcd464ba"
+    }
+  ],
+  "changes": "README, build/simulation guide and read-only repository verifier; RTL/IP/constraints/firmware unchanged."
+}
